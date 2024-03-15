@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7dbda1d7-2836-4512-b253-532ce896c772" name="Changes" comment="git init">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/src/assets/img/arrow-top.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/src/assets/img/cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/src/assets/img/empty-cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/src/assets/img/grey-arrow-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/src/assets/img/pizza-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/src/assets/img/plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/src/assets/img/trash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/src/components/Categories.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/src/components/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/src/components/PizzaBlock.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/src/components/Sort.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/src/pizzas.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/src/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/src/scss/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/src/scss/components/_all.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/src/scss/components/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/src/scss/components/_categories.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/src/scss/components/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/src/scss/components/_pizza-block.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/src/scss/components/_sort.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/src/scss/libs/_normalize.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2daZjvNfcwfXJc4Xkb0i3TVvCY0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2023.3.4\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\LEARNING\ReactPizza\react-pizza\src\assets" />
+      <recent name="D:\LEARNING\ReactPizza\react-pizza\src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7dbda1d7-2836-4512-b253-532ce896c772" name="Changes" comment="" />
+      <created>1710248288157</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710248288157</updated>
+      <workItem from="1710248289401" duration="883000" />
+      <workItem from="1710249182822" duration="1426000" />
+      <workItem from="1710250708553" duration="6209000" />
+      <workItem from="1710357982708" duration="1889000" />
+      <workItem from="1710407175736" duration="4348000" />
+      <workItem from="1710532357366" duration="2019000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="git init" />
+    <option name="LAST_COMMIT_MESSAGE" value="git init" />
+  </component>
+</project>
