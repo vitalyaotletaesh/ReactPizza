@@ -5,39 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dbda1d7-2836-4512-b253-532ce896c772" name="Changes" comment="git init">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-pizza/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-pizza/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-pizza/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-pizza/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-pizza/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-pizza/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-pizza/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-pizza/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-pizza/src/assets/img/arrow-top.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-pizza/src/assets/img/cart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-pizza/src/assets/img/empty-cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-pizza/src/assets/img/grey-arrow-left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-pizza/src/assets/img/pizza-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-pizza/src/assets/img/plus.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-pizza/src/assets/img/trash.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-pizza/src/components/Categories.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-pizza/src/components/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-pizza/src/components/PizzaBlock.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-pizza/src/components/Sort.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-pizza/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-pizza/src/pizzas.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-pizza/src/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-pizza/src/scss/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-pizza/src/scss/components/_all.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-pizza/src/scss/components/_button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-pizza/src/scss/components/_categories.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-pizza/src/scss/components/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-pizza/src/scss/components/_pizza-block.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-pizza/src/scss/components/_sort.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-pizza/src/scss/libs/_normalize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/src/Pages/Cart.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/src/Pages/ErrorPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/src/Pages/Home.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/src/Pages/Login.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-pizza/src/components/PizzaBlock/Skeleton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/src/components/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/src/components/PizzaBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/src/components/PizzaBlock/PizzaBlock.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/src/components/Sort.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/src/components/Sort.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/src/pizzas.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/src/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/src/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/src/scss/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/src/scss/components/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-pizza/src/scss/components/_pizza-block.scss" beforeDir="false" afterPath="$PROJECT_DIR$/react-pizza/src/scss/components/_pizza-block.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +33,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;vitalyaotletaesh&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="a6b48a5e-788f-495c-a087-9e321b3693bb" />
+        <option name="url" value="https://github.com/vitalyaotletaesh/ReactPizza.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -54,28 +54,33 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2daZjvNfcwfXJc4Xkb0i3TVvCY0" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2023.3.4\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2023.3.4\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\LEARNING\ReactPizza\react-pizza\src\Pages" />
+      <recent name="D:\LEARNING\ReactPizza\react-pizza\src\components\PizzaBlock" />
       <recent name="D:\LEARNING\ReactPizza\react-pizza\src\assets" />
       <recent name="D:\LEARNING\ReactPizza\react-pizza\src" />
     </key>
@@ -93,14 +98,30 @@
       <workItem from="1710250708553" duration="6209000" />
       <workItem from="1710357982708" duration="1889000" />
       <workItem from="1710407175736" duration="4348000" />
-      <workItem from="1710532357366" duration="2019000" />
+      <workItem from="1710532357366" duration="2770000" />
+      <workItem from="1710535525671" duration="73000" />
+      <workItem from="1710582105670" duration="5064000" />
+      <workItem from="1710712195943" duration="2374000" />
+      <workItem from="1710872778731" duration="2861000" />
+      <workItem from="1710947160561" duration="7363000" />
+      <workItem from="1712259129667" duration="50000" />
     </task>
+    <task id="LOCAL-00001" summary="git init">
+      <option name="closed" value="true" />
+      <created>1710534908707</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710534908707</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="git init" />
     <option name="LAST_COMMIT_MESSAGE" value="git init" />
   </component>
