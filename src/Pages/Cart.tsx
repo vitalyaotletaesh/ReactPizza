@@ -3,14 +3,15 @@ import { useDispatch, useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
 import CartEmpty from '../components/CartEmpty.tsx'
 import { CartItem } from '../components/CartItem.tsx'
-import { clearItems, selectCart } from '../redux/slices/cartSlice.ts'
+import { selectCart } from '../redux'
+import { clearItems } from '../redux'
 import {
 	SortPropertyEnum,
 	setCategory,
 	setPage,
 	setSort,
-} from '../redux/slices/filterSlice.ts'
-import { setSearchValue } from '../redux/slices/searchSlice.ts'
+} from '../redux/'
+import { setSearchValue } from '../redux'
 import '../scss/app.scss'
 
 const Cart: React.FC = () => {

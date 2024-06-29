@@ -9,11 +9,12 @@ import Skeleton from '../components/PizzaBlock/Skeleton.tsx'
 import Sort from '../components/Sort.tsx'
 import {
 	SortType,
+	fetchPizzas,
 	selectFilter,
+	selectPizzas,
+	selectSearch,
 	setFilters,
-} from '../redux/slices/filterSlice.ts'
-import { fetchPizzas, selectPizzas } from '../redux/slices/pizzasSlice.ts'
-import { selectSearch } from '../redux/slices/searchSlice.ts'
+} from '../redux'
 import { useAppDispatch } from '../redux/store.ts'
 
 const Home: React.FC = () => {

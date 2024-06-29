@@ -1,15 +1,30 @@
+import { useEffect, useRef } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { Link, useLocation } from 'react-router-dom'
 import pizzaLogo from '../assets/img/pizza-logo.svg'
-import { selectCart } from '../redux/slices/cartSlice'
-import { SortPropertyEnum, setCategory, setPage, setSort } from '../redux/slices/filterSlice'
+import {
+	SortPropertyEnum,
+	setCategory,
+	setPage,
+	setSearchValue,
+	setSort,
+} from '../redux'
+import { selectCart } from '../redux/cart/selectors'
 import Search from './Search'
-import { setSearchValue } from '../redux/slices/searchSlice'
 
 const Header: React.FC = () => {
 	const dispatch = useDispatch()
 	const { totalPrice, items } = useSelector(selectCart)
 	const { pathname } = useLocation()
+	const isMounted = useRef(false)
+
+	useEffect(() => {
+		if (isMounted.current) {
+			const json = JSON.stringify(items)
+			localStorage.setItem('cart', json)
+		}
+		isMounted.current = true
+	}, [items])
 
 	const handleClickHome = (): void => {
 		dispatch(setCategory(0))
@@ -30,7 +45,7 @@ const Header: React.FC = () => {
 					<div className='header__logo'>
 						<img width='38' src={pizzaLogo} alt='Pizza logo' />
 						<div>
-							<h1>Raiden Shop</h1>
+							<h1>Raiden Pizza</h1>
 							<p>самая вкусная пицца во вселенной</p>
 						</div>
 					</div>

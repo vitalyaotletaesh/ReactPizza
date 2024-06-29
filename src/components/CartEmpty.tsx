@@ -7,8 +7,8 @@ import {
 	setCategory,
 	setPage,
 	setSort,
-} from '../redux/slices/filterSlice'
-import { setSearchValue } from '../redux/slices/searchSlice'
+} from '../redux'
+import { setSearchValue } from '../redux'
 
 const CartEmpty: React.FC = () => {
 	const dispatch = useDispatch()

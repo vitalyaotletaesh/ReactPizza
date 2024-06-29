@@ -1,8 +1,8 @@
 import debounce from 'lodash.debounce'
 import { useCallback, useRef, useState } from 'react'
 import { useDispatch } from 'react-redux'
-import { setSearchValue } from '../../redux/slices/searchSlice'
 import styles from './search.module.scss'
+import { setSearchValue } from '../../redux'
 
 export const Search: React.FC = () => {
 	const [inputValue, setInputValue] = useState<string>('')

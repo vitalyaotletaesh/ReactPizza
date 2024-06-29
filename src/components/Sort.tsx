@@ -4,7 +4,7 @@ import {
 	SortPropertyEnum,
 	selectFilter,
 	setSort,
-} from '../redux/slices/filterSlice'
+} from '../redux'
 
 type SortItem = {
 	name: string

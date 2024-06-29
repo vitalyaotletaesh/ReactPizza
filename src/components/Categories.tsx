@@ -1,7 +1,6 @@
-import useWhyDidYouUpdate from 'ahooks/lib/useWhyDidYouUpdate'
 import { memo, useCallback } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { selectFilter, setCategory } from '../redux/slices/filterSlice'
+import { selectFilter, setCategory } from '../redux'
 
 const categories: string[] = [
 	'Все',

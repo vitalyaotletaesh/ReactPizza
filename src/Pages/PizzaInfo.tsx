@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
+import { useSelector } from 'react-redux'
 import { useParams } from 'react-router-dom'
-import { fetchPizzaById, selectPizzaById } from '../redux/slices/pizzasSlice'
+import { fetchPizzaById, selectPizzaById } from '../redux'
 import { useAppDispatch } from '../redux/store'
 
 const PizzaInfo: React.FC = () => {

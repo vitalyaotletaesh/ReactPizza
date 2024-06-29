@@ -1,7 +1,9 @@
 import { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
-import { ItemsObj, addItem, selectCart } from '../../redux/slices/cartSlice'
+import { selectCart } from '../../redux'
+import { addItem } from '../../redux'
+import { ItemsObj } from '../../redux'
 
 const typeNames = ['Традиционное', 'Тонкое']
 
@@ -36,7 +38,7 @@ const PizzaBlock: React.FC<PizzaBlockProps> = ({
 			imageUrl,
 			size: selectedSize,
 			type: typeNames[selectedType],
-			count: 0
+			count: 0,
 		}
 		dispatch(addItem(item))
 	}
